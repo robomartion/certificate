@@ -1,0 +1,121 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    background-color: rgba(255,255,255,0.92);
+    background-blend-mode: lighten;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.green-background{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: #197c44;
+    font-weight: bold;
+}
+
+.header{
+    width: 400px;
+    padding: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    background-image: url("tick.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+}
+
+.green{
+    color: #197c44;
+}
+
+.centered{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+h2{
+    font-size: 16px;
+    color:#4B4B4B;
+}
+
+.gov{
+    width: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.info{
+    display: grid;
+}
+
+.grid-container {
+    line-height: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px;
+  }
+  .grid-item {
+  }
+
+.align-right{
+      text-align: right;
+  }
+
+  .passport{
+    margin: 30px;
+    opacity: 50%;
+  }
+
+  .secondary{
+      margin-top:50px;
+  }
+
+  h3{
+      font-size: 20px;
+      font-weight: normal;
+  }
+
+  .small{
+      font-size: 13px;
+  }
+
+
+  .right{
+      right: 0px;
+  }
+
+  .bottom{
+      margin-top: 50px;
+  }
+
+  .disclaimer{
+      line-height: 1.4;
+      margin: 0px;
+      padding: 5px;
+      margin-top: 80px;
+  }
+
+  .grey{
+    font-size: 14px;
+    color: #4B4B4B;
+    line-height: 2;
+}

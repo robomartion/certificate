@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 digital certificate</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function testVariable() {
+            var strText = document.getElementById("textone").value;          
+            var strText1 = document.getElementById("textTWO").value;
+            document.getElementById('spanResult1').textContent = strText;
+            document.getElementById('spanResult2').textContent = strText1;
+             
+        }
+        function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
+</head>
+
+<div id="myDIV">
+    <p>Name (e.g. JOHN CITZEN)<input type="text" id="textone" /></p>
+    <p>Date of birth (e.g.01 Jan 1950)<input type="text" id="textTWO" /></p>
+    <button  onclick="testVariable(); myFunction();">Submit</button> <br />
+    
+</div>
+
+
+
+<img class="gov" src="aus-gov.png">
+<div class="green-background">
+    <div class="header">COVID-19 digital certificate</div>
+</div>
+<p class="centered">This individual has receive all required COVID-19 vaccinations.</p>
+<div class="passport">
+<div class="grid-container">
+    <div class="grid-item">
+        <h2 >Name</h2>
+        <p class="bold"><span id="spanResult1"></span></p>
+    </div>
+
+    <div class ="align-right" class="grid-item">
+        <h2>Date of birth</h2>
+        <p><span id="spanResult2"></span></p>
+    </div>
+
+    <div class="grid-item">
+        <h2>Individual Healthcare Identifier (IHI)</h2>
+        <p>2348 5834 7897 5396</p>
+    </div>
+
+    <div class ="align-right" class="grid-item">
+        <h2>Document number</h2>
+        <p>100000000546</p>
+    </div>
+    <div class="grid-item">
+        <h2 class="green">Valid from</h2>
+        <p>26 Aug 2021</p>
+    </div>
+</div>
+
+
+
+<div class="secondary">
+
+<div class="grid-container">
+    <div class="grid-item">
+        <h2>Vaccinations</h2>
+    </div>
+    <div class="grid-item">
+        <h2 class="align-right">Dates received</h2>
+    </div>
+</div>
+<hr>
+<div class="grid-container">
+    <div class="grid-item">
+        <h3>Pfizer Comirnaty</h3>
+    </div>
+    <div class="grid-item">
+        <h3 class="align-right">05 Aug 2021, 26 Aug 2021</h3>
+    </div>
+</div>
+</div>
+
+</div>
+
+<div class="disclaimer">
+<p class="small"><b class="grey">Disclaimer</b>
+    <br>
+    This certificate shows your COVID-19 immunisation details as reported to the Australian Immunisation Register by your vaccination provider. It is availabe because, have received all required COVID-19 vaccinations approved for use in Australia. The valid from date reflects the date from which you received all required COVID-19 vaccinalions. 
+    <br>
+    <br>
+    Every effort is made to ensure that the information contained on the Australian Immunisation Register is correct. The data is based on information provided by vaccination providers and the accuracy of data dependent on the quality and timeliness of the informatien provided. 
+    <br>
+    <br>
+    If anmy of the immunisation details shown on the certificate are not correct please, ask your wicoivaccine provider to provide the correct details by calling us on 1800 653 809 (call charges may apply).
+    <br>
+    <br>
+    If you have any puesilons about this certificate please call the Australian immunation Register on 1800 653 809 (call charges may apply).
+    </p>
+
+    <div class="bottom">
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="grey" class="small"><b>Version</b></div>
+                <p class="small">v2021.07.10</p>
+            </div>
+            <div class="align-right" class="grid-item">
+                <div class="grey" class="small"><b>Date Generated</b></div>
+                <p class="small">27 Aug 2021</p>
+            </div>
+            
+        </div>
+    
+        </div>
+</div>
+
+    
+
+
+
+
+    
+</body>
+</html>
