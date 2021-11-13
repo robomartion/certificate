@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVID-19 digital certificate</title>
     <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="stylesheet.css">
     <script>
         function testVariable() {
             var strText = document.getElementById("textone").value;          
             var strText1 = document.getElementById("textTWO").value;
             document.getElementById('spanResult1').textContent = strText;
             document.getElementById('spanResult2').textContent = strText1;
+	document.getElementById('spanResult3').textContent = strText1;
              
         }
         function myFunction() {
@@ -33,42 +35,60 @@
 </div>
 
 
+<div class="certificate">
 
+<div class="top-image">
 <img class="gov" src="aus-gov.png">
-<div class="green-background">
-    <div class="header">COVID-19 digital certificate</div>
+<img class="gov2" src="aus-gov2.png">
 </div>
+<div class="green-background">
+    <div class="header"><div class="title-header"><b>COVID-19</b> digital certificate</div></div>
+</div>
+<div class="hidden">
 <p class="centered">This individual has received all required COVID-19 vaccinations.</p>
+</div>
+<div class="pass">
 <div class="passport">
 <div class="grid-container">
     <div class="grid-item">
-        <h2 >Name</h2>
+	<h2 class="hidden">Name</h2>
+        <h2 class="not-hidden">NAME</h2>
         <p class="bold"><span id="spanResult1"></span></p>
+	<h2 class="not-hidden">DATE OF BIRTH</h2>
+        <p class="not-hidden"><span id="spanResult2"></span></p>
+	<h7 class="green-and">VALID FROM</h7>
+        <p class="green-and">26 Aug 2021</p>
     </div>
 
-    <div class ="align-right" class="grid-item">
+    <div class="align-right, grid-item, hidden">
         <h2>Date of birth</h2>
-        <p><span id="spanResult2"></span></p>
+        <p><span id="spanResult3"></span></p>
     </div>
 
-    <div class="grid-item">
+    <div class="grid-item, hidden">
         <h2>Individual Healthcare Identifier (IHI)</h2>
         <p>2348 5834 7897 5396</p>
     </div>
 
-    <div class ="align-right" class="grid-item">
+    <div class="grid-item, align-right, hidden">
         <h2>Document number</h2>
         <p>100000000546</p>
     </div>
-    <div class="grid-item">
+
+    <div class="grid-item, hidden">
         <h2 class="green">Valid from</h2>
-        <p>26 Aug 2021</p>
+        <p class="green-when">26 Aug 2021</p>
     </div>
+</div>
+
+    <div class="not-hidden">
+<p class="small-grey">27 Aug 2021 11:40:56</p>
+</div>
 </div>
 
 
 
-<div class="secondary">
+<div class="secondary, hidden">
 
 <div class="grid-container">
     <div class="grid-item">
@@ -117,13 +137,14 @@
                 <div class="grey" class="small"><b>Date Generated</b></div>
                 <p class="small">27 Aug 2021</p>
             </div>
+
             
         </div>
-    
+
         </div>
 </div>
 
-    
+    </div>
 
 
 
